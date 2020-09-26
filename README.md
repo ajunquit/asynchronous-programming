@@ -293,3 +293,9 @@ This final code is asynchronous. It more accurately reflects how a person would 
 # Bibliography 
 **[Web]**
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
+
+# About me
+I'm developer software from Ecuador
+> Name: Alejandro Junqui (@ajunquit)
+> Web Site: ajunquit.com/website
+> Email: ajunquit@gmail.com
