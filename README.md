@@ -185,7 +185,7 @@ The final version of the asynchronously prepared breakfast took roughly 15 minut
 
 This final code is asynchronous. It more accurately reflects how a person would cook a breakfast. Compare the preceding code with the first code sample in this article. The core actions are still clear from reading the code. You can read this code the same way you'd read those instructions for making a breakfast at the beginning of this article. The language features for `async` and `await` provide the translation every person makes to follow those written instructions: start tasks as you can and don't block waiting for tasks to complete.
 
-#The Metrics
+# The Metrics
 ```json
 {
   "AwaitTasksEfficiently": [
@@ -286,6 +286,6 @@ This final code is asynchronous. It more accurately reflects how a person would 
 ```
 
 
-#Results
+# Results
 
 # Graphics
