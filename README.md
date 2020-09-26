@@ -185,7 +185,107 @@ The final version of the asynchronously prepared breakfast took roughly 15 minut
 
 This final code is asynchronous. It more accurately reflects how a person would cook a breakfast. Compare the preceding code with the first code sample in this article. The core actions are still clear from reading the code. You can read this code the same way you'd read those instructions for making a breakfast at the beginning of this article. The language features for `async` and `await` provide the translation every person makes to follow those written instructions: start tasks as you can and don't block waiting for tasks to complete.
 
-## Next steps
+#The Metrics
+```json
+{
+  "AwaitTasksEfficiently": [
+    6.0600358,
+    6.0605851,
+    6.0176435,
+    6.0789078,
+    6.0134398,
+    6.0467179,
+    6.0425263,
+    6.0067908,
+    6.007758,
+    6.0152902,
+    6.0385939,
+    6.0066405,
+    6.0038095,
+    6.00679,
+    6.0041213,
+    6.0048551,
+    6.0347704,
+    6.0135691,
+    6.0062401,
+    6.0075139
+  ],
+  "CompositionWithTasks": [
+    6.0823895,
+    6.0702411,
+    6.0183725,
+    6.0080314,
+    6.0061918,
+    6.0071671,
+    6.0049499,
+    6.0175516,
+    6.0069664,
+    6.0029397,
+    6.0105737,
+    6.0132108,
+    6.007364,
+    6.0056989,
+    6.0075332,
+    6.0048654,
+    6.0806127,
+    6.0113842,
+    6.0069802,
+    6.0062297
+  ],
+  "NonAsynchronous": [
+    15.0650667,
+    15.0856166,
+    15.0326906,
+    15.0140334,
+    15.0283844,
+    15.1069877,
+    15.0229566
+  ],
+  "NonBlocking": [
+    15.0205839,
+    15.0178043,
+    15.011629,
+    15.0085121,
+    15.0076508,
+    15.0415264
+  ],
+  "StartTasksConcurrently": [
+    15.0233448,
+    15.0272631,
+    15.022129,
+    15.0295132,
+    15.012769,
+    15.08945,
+    15.0245447,
+    15.0200972,
+    15.0069856
+  ],
+  "StartTasksConcurrentlyButMoveOrder": [
+    6.0172574,
+    6.0899735,
+    6.0051543,
+    6.0124233,
+    6.0139495,
+    6.0475163,
+    6.0094877,
+    6.0398685,
+    6.0082841,
+    6.0031715,
+    6.0304283,
+    6.0091267,
+    6.0032054,
+    6.017609,
+    6.0063242,
+    6.0073275,
+    6.018831,
+    6.0307834,
+    6.0197508,
+    6.0118104
+  ]
+}
+```
 
-> [!div class="nextstepaction"]
-> [Learn about the task asynchronous programming model](task-asynchronous-programming-model.md)
+
+#Results
+
+# Graphics
